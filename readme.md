@@ -13,7 +13,7 @@ Instead of writing the same boiler plate code to read from your form inputs and
 populate the model attributes, for every input on your form, you can make a 
 single call to `Backbone.ModelBinding.bind(myView)` and have all of your inputs
 automatically wired up. Any change you make to a form input will populate a
-corresponding model attribute for you. The binding is bi-directional, as well.
+corresponding model attribute for you. The binding is bi-directional , as well.
 This means that changes to your underlying model will be propagated to your
 form inputs without having to manually bind to your model's `change` events.
 
@@ -23,7 +23,7 @@ support for `data-bind` attributes, allowing your Backbone model `change` events
 to modify nearly any HTML element on your page. Whether it's updating the text
 of a `<div>`, or changing the css class of an `<img>` tag, the `data-bind` 
 support provides a very powerful and flexible means of creating a very rich
-user experience.
+user experience. ** Note: data-bind style bindings are not bi-directional **
 
 ## Getting Started
 
